@@ -1,0 +1,14 @@
+modules:
+  jira:issuePanel:
+    - key: hello-world-app-hello-world-panel
+      function: main
+      title: Forge app for Luis
+      icon: https://developer.atlassian.com/platform/forge/images/icons/issue-panel-icon.svg
+  function:
+    - key: main
+      handler: index.run
+app:
+  id: ari:cloud:ecosystem::app/251e5c57-1643-4f0f-9ec2-76134d9df3a6
+permissions:
+  scopes:
+    - read:confluence-content.summary
