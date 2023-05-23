@@ -11,4 +11,4 @@ app:
   id: ari:cloud:ecosystem::app/251e5c57-1643-4f0f-9ec2-76134d9df3a6
 permissions:
   scopes:
-    - read:confluence-content.summary
+    - read:jira-work
